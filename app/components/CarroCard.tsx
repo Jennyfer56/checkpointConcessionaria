@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Carro } from "../data/carrosData"; 
+import { Carro } from "../data/carrosData";
 
 interface CarroCardProps {
   carro: Carro;

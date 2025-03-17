@@ -20,7 +20,7 @@ export default function DetalhesCarro({ params }: { params: { id: string } }) {
   return (
     <div className="detalhes-carro">
       <h1>Detalhes do Carro</h1>
-      <img src={carro.foto} alt={carro.modelo}/>
+      <img src={carro.foto} alt={carro.modelo} />
       <h2>{carro.modelo}</h2>
       <p>Ano: {carro.ano}</p>
       <p>Preço: R$ {carro.preco}</p>
